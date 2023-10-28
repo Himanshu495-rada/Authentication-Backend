@@ -43,6 +43,7 @@ Before you begin, ensure you have the following software installed:
 
 5. API Endpoints: 
 
+   ```bash
    GET /authenticate
    POST /login
    POST /signup
