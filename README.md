@@ -20,3 +20,37 @@ Before you begin, ensure you have the following software installed:
    ```bash
    git clone https://github.com/yourusername/your-auth-backend.git
    cd your-auth-backend
+
+2. Install project dependencies:
+
+   ```bash
+   npm install
+   # OR
+   yarn
+
+3. Setting up Environment Variables:
+
+   ```bash
+   DATABASE_URL="mysql://root:randompassword@localhost:8000/expressAuthentication"
+   JWT_KEY="key_to_generate_jwt"
+
+4. Running the server:
+
+   ```bash
+   npm start
+   # OR
+   yarn start
+
+5. API Endpoints: 
+
+   GET /authenticate
+   POST /login
+   POST /signup
+   POST /logout
+
+6. Database Setup:
+
+   ```bash
+   npx prisma generate
+
+
